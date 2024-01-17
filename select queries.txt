@@ -1,0 +1,116 @@
+Fetching or reading data
+select queries
+* - universal
+
+Where Clause
+
+SELECT * FROM product
+
+SELECT * FROM product WHERE prd_id=2
+
+SELECT * FROM product WHERE prd_id=3
+
+SELECT * FROM product WHERE prd_name="Dress"
+
+SELECT * FROM product WHERE prd_price=2000
+
+SELECT prd_name FROM product
+
+SELECT prd_name,prd_price FROM product
+
+SELECT prd_name,prd_price,prd_desc_price FROM product
+
+SELECT * FROM product WHERE prd_price>1500
+
+SELECT * FROM product WHERE prd_desc_price<1500
+
+SELECT * FROM product WHERE prd_price BETWEEN 1000 and 3000
+
+Aggregate Functions:-
+
+MIN:-SELECT MIN(prd_price) FROM product
+SELECT prd_name, MIN(prd_price) FROM product
+
+MAX:-SELECT prd_name,MAX(prd_price) FROM product
+SUM:- SELECT SUM(prd_price) FROM product
+AVG:- SELECT AVG(prd_price) FROM product
+COUNT:- SELECT COUNT(prd_id) FROM product
+
+Aliases:- To change the column name temporary-as
+
+SELECT SUM(prd_price) AS total FROM product
+
+ORDER BY:-
+
+SELECT * FROM product ORDER BY prd_price ASC
+
+SELECT * FROM product ORDER BY prd_desc_price DESC
+
+SELECT * FROM product ORDER BY prd_name ASC
+
+Date-time Inbuilt Functions:-
+
+current date:-SELECT curdate()
+
+current time:-SELECT curtime()
+
+date and time:-SELECT now()
+
+DISTINCT:-SELECT DISTINCT age FROM student
+
+string inbuilt functions:-
+
+1) concat:-SELECT concat("Manav"," ","Gathani")
+SELECT concat(fname," ",lname) AS fullname FROM student
+
+2) reverse:-SELECT reverse("sohan")
+
+3) length:- SELECT length("Manav")
+
+4) upper:- SELECT upper("manav")
+
+5) lower:- SELECT lower("MANAV")
+
+GROUP BY:-
+
+SELECT age,COUNT(id) FROM student GROUP BY age
+
+SELECT fname,COUNT(id) FROM student GROUP BY fname
+
+
+Joins:- Joins is used to join two or more tables.
+
+1) Inner Join:- Inner Join will join all the data based on
+related columns
+
+SELECT category.cate_name,subcategory.subcate_name FROM category
+INNER JOIN subcategory ON category.cate_id=subcategory.cate_id_fk
+
+
+SELECT category.cate_name,subcategory.subcate_name,product.prd_name,product.prd_price,product.prd_desc_price FROM category
+JOIN subcategory ON category.cate_id=subcategory.cate_id_fk
+JOIN product ON category.cate_id=product.subcate_id_fk
+
+
+Task 1:- create table student and add student id,name,marks and 
+also find out total marks,average marks,minimum and maximum marks
+and also find out total number of students.
+
+Task 2:- create database hospital and create table child and add
+child id, child name, child date and time of birth.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
