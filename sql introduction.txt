@@ -1,0 +1,60 @@
+RDBMS:- Database Management System
+
+Database:-To store the large amount of data
+
+oracle
+mysql
+mongodb
+postgresql
+
+
+SQL:- Structured Query Language.
+
+---> It stores your data in a structured format
+using rows and columns(tables)
+
+
+mysql:- server
+
+host:- localhost(IP:- 127.0.0.1)
+
+Port:- 3306
+
+per software/company there is only one database
+
+but there are more than one table in one database
+
+
+
+
+Difference between drop and truncate:-
+
+Truncate will delete all the data from table while drop will
+delete the whole table
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
