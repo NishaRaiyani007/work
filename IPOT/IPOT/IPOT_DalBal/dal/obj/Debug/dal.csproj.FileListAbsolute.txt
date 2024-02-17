@@ -1,0 +1,60 @@
+E:\examdb\dal\bin\Debug\dal.dll
+E:\examdb\dal\bin\Debug\dal.pdb
+E:\examdb\dal\obj\Debug\ResolveAssemblyReference.cache
+E:\examdb\dal\obj\Debug\dal.dll
+E:\examdb\dal\obj\Debug\dal.pdb
+D:\sachin\examdb\dal\bin\Debug\dal.dll
+D:\sachin\examdb\dal\bin\Debug\dal.pdb
+D:\sachin\examdb\dal\obj\Debug\ResolveAssemblyReference.cache
+D:\sachin\examdb\dal\obj\Debug\dal.dll
+D:\sachin\examdb\dal\obj\Debug\dal.pdb
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\dal\bin\Debug\dal.dll
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\dal\bin\Debug\dal.pdb
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\dal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\dal\obj\Debug\dal.dll
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\dal\obj\Debug\dal.pdb
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\dal\bin\Debug\dal.dll
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\dal\bin\Debug\dal.pdb
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\dal\obj\Debug\dal.dll
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\dal\obj\Debug\dal.pdb
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\dal\bin\Debug\dal.dll
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\dal\bin\Debug\dal.pdb
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\dal\obj\Debug\dal.dll
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\dal\obj\Debug\dal.pdb
+D:\Ipot_local_Trainer\IPOT_DalBal\dal\bin\Debug\dal.dll
+D:\Ipot_local_Trainer\IPOT_DalBal\dal\bin\Debug\dal.pdb
+D:\Ipot_local_Trainer\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+D:\Ipot_local_Trainer\IPOT_DalBal\dal\obj\Debug\dal.dll
+D:\Ipot_local_Trainer\IPOT_DalBal\dal\obj\Debug\dal.pdb
+D:\NALIN_DOTNET\Ipot_Mar2_LocalCode\IPOT_DalBal\dal\bin\Debug\dal.dll
+D:\NALIN_DOTNET\Ipot_Mar2_LocalCode\IPOT_DalBal\dal\bin\Debug\dal.pdb
+D:\NALIN_DOTNET\Ipot_Mar2_LocalCode\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+D:\NALIN_DOTNET\Ipot_Mar2_LocalCode\IPOT_DalBal\dal\obj\Debug\dal.dll
+D:\NALIN_DOTNET\Ipot_Mar2_LocalCode\IPOT_DalBal\dal\obj\Debug\dal.pdb
+L:\IPOT_DalBal\dal\bin\Debug\dal.dll
+L:\IPOT_DalBal\dal\bin\Debug\dal.pdb
+L:\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+L:\IPOT_DalBal\dal\obj\Debug\dal.dll
+L:\IPOT_DalBal\dal\obj\Debug\dal.pdb
+D:\ASP_DOTNET\IPOT_DalBal\dal\bin\Debug\dal.dll
+D:\ASP_DOTNET\IPOT_DalBal\dal\bin\Debug\dal.pdb
+D:\ASP_DOTNET\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP_DOTNET\IPOT_DalBal\dal\obj\Debug\dal.dll
+D:\ASP_DOTNET\IPOT_DalBal\dal\obj\Debug\dal.pdb
+D:\ASP_DOTNET\IPOT\IPOT_DalBal\dal\bin\Debug\dal.dll
+D:\ASP_DOTNET\IPOT\IPOT_DalBal\dal\bin\Debug\dal.pdb
+D:\ASP_DOTNET\IPOT\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP_DOTNET\IPOT\IPOT_DalBal\dal\obj\Debug\dal.dll
+D:\ASP_DOTNET\IPOT\IPOT_DalBal\dal\obj\Debug\dal.pdb
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\dal\bin\Debug\dal.dll
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\dal\bin\Debug\dal.pdb
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\dal\obj\Debug\dal.dll
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\dal\obj\Debug\dal.pdb
+D:\Asp-Project\IPOT\IPOT_DalBal\dal\bin\Debug\dal.dll
+D:\Asp-Project\IPOT\IPOT_DalBal\dal\bin\Debug\dal.pdb
+D:\Asp-Project\IPOT\IPOT_DalBal\dal\obj\Debug\ResolveAssemblyReference.cache
+D:\Asp-Project\IPOT\IPOT_DalBal\dal\obj\Debug\dal.dll
+D:\Asp-Project\IPOT\IPOT_DalBal\dal\obj\Debug\dal.pdb

@@ -1,0 +1,66 @@
+E:\examdb\bal\obj\Debug\ResolveAssemblyReference.cache
+E:\examdb\bal\bin\Debug\bal.dll
+E:\examdb\bal\bin\Debug\bal.pdb
+E:\examdb\bal\bin\Debug\dal.dll
+E:\examdb\bal\bin\Debug\dal.pdb
+E:\examdb\bal\obj\Debug\bal.dll
+E:\examdb\bal\obj\Debug\bal.pdb
+D:\sachin\examdb\bal\bin\Debug\bal.pdb
+D:\sachin\examdb\bal\bin\Debug\dal.dll
+D:\sachin\examdb\bal\bin\Debug\dal.pdb
+D:\sachin\examdb\bal\obj\Debug\ResolveAssemblyReference.cache
+D:\sachin\examdb\bal\obj\Debug\bal.dll
+D:\sachin\examdb\bal\obj\Debug\bal.pdb
+D:\sachin\examdb\bal\bin\Debug\bal.dll
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\bin\Debug\bal.dll
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\bin\Debug\bal.pdb
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\bin\Debug\dal.dll
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\bin\Debug\dal.pdb
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\obj\Debug\bal.dll
+C:\Documents and Settings\Administrator\Desktop\IPOTNEW\IPOT_New\examdb\bal\obj\Debug\bal.pdb
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\bin\Debug\bal.dll
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\bin\Debug\bal.pdb
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\bin\Debug\dal.dll
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\bin\Debug\dal.pdb
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\obj\Debug\bal.dll
+F:\SREEDHAR's__MAJOR_PROJECTS\IPOT_ServerCode_Mar2\IPOT_DalBal\bal\obj\Debug\bal.pdb
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\bin\Debug\bal.dll
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\bin\Debug\bal.pdb
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\bin\Debug\dal.dll
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\bin\Debug\dal.pdb
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\obj\Debug\bal.dll
+C:\Documents and Settings\Sreedhar\Desktop\IPOT_DalBal\bal\obj\Debug\bal.pdb
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\bin\Debug\bal.dll
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\bin\Debug\bal.pdb
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\bin\Debug\dal.dll
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\bin\Debug\dal.pdb
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\obj\Debug\bal.dll
+D:\Ipot_local_Trainer\IPOT_DalBal\bal\obj\Debug\bal.pdb
+D:\IPOT_LocalCode_Mar2\IPOT_DalBal\bal\bin\Debug\bal.pdb
+D:\IPOT_LocalCode_Mar2\IPOT_DalBal\bal\bin\Debug\dal.dll
+D:\IPOT_LocalCode_Mar2\IPOT_DalBal\bal\bin\Debug\dal.pdb
+D:\IPOT_LocalCode_Mar2\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+D:\IPOT_LocalCode_Mar2\IPOT_DalBal\bal\obj\Debug\bal.dll
+D:\IPOT_LocalCode_Mar2\IPOT_DalBal\bal\obj\Debug\bal.pdb
+D:\ASP_DOTNET\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\bal.pdb
+D:\ASP_DOTNET\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\dal.dll
+D:\ASP_DOTNET\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\dal.pdb
+D:\ASP_DOTNET\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+D:\ASP_DOTNET\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\bal.dll
+D:\ASP_DOTNET\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\bal.pdb
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\bal.pdb
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\dal.dll
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\dal.pdb
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\bal.dll
+E:\DATA_DRIVE\ASP_DOTNET\IPOT\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\bal.pdb
+F:\IPOT\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\bal.pdb
+F:\IPOT\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\dal.dll
+F:\IPOT\IPOT_DalBal\IPOT_DalBal\bal\bin\Debug\dal.pdb
+F:\IPOT\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\ResolveAssemblyReference.cache
+F:\IPOT\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\bal.dll
+F:\IPOT\IPOT_DalBal\IPOT_DalBal\bal\obj\Debug\bal.pdb
