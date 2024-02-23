@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminmaster.master.cs"
+    Inherits="admin_admin_master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Seeking</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #mycontent
+        {
+            min-height:300px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Header -->
+    <div id="header">
+        <div class="shell">
+            <!-- Logo + Top Nav -->
+            <div id="top">
+                <h1>Seeking</h1>
+                <div id="top-navigation">
+                    Welcome <a href="#"><strong>Administrator</strong></a> <span>|</span> <a href="#">Help</a>
+                    <span>|</span> <a href="changepass.aspx">Change Password</a> <span>|</span> <a href="#">Log out</a>
+                </div>
+            </div>
+            <!-- End Logo + Top Nav -->
+            <!-- Main Nav -->
+            <div id="navigation">
+                <ul>
+                    <li><a href="#" class="active"><span>View Seeker</span></a></li>
+                    <li><a href="#"><span>View Provider</span></a></li>
+                    <li><a href="#"><span>Edit Profie</span></a></li>
+                    <li><a href="#"><span>Photo Gallery</span></a></li>
+                    <li><a href="#"><span>About Company</span></a></li>
+                    <li><a href="#"><span>Services Control</span></a></li>
+                </ul>
+            </div>
+            <!-- End Main Nav -->
+        </div>
+    </div>
+    <div id="mycontent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="shell">
+            <span class="left">&copy; 2010 - CompanyName</span> <span class="right">Design by <a
+                href="http://chocotemplates.com" target="_blank" title="The Sweetest CSS Templates WorldWide">
+                Chocotemplates.com</a> </span>
+        </div>
+    </div>
+    <!-- End Footer -->
+    </form>
+</body>
+</html>
