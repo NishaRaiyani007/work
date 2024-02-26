@@ -1,0 +1,834 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage-Company.master.cs" Inherits="CompanyMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8"/>
+	<title>Occupation Enlisting</title>
+	<meta name="description" content="AquaTheme - HTML Template"/>
+	<meta name="author" content="Blueowlcreative.com"/>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/skeleton.css"/>
+	<link rel="stylesheet" href="stylesheets/style.css"/>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>	
+
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" media="screen" href="stylesheets/sequencejs-theme.sliding-horizontal-parallax-ie.css" /><![endif]-->
+
+	<link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="stylesheets/carousel.css" type="text/css" media="screen" />
+	
+	<!-- JS
+  ================================================== -->	
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	
+	
+	<script type="text/javascript" src="js/sequence.jquery-min.js"></script>	
+	<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicollogo.png">
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+        
+         <div id="wrapper">
+  
+	<div class="container">
+	
+		<div class="header clearfix row">
+			<div class="eight columns header_left">
+				<a href="HomePage-Visiter.aspx"><img src="images/logonew.PNG"/></a>
+                
+			</div>
+			<div class="eight columns">
+				<div class="header_right">
+					<div class="header_contacts clearfix">
+						<div class="header_phone"><a href="LOGIN.aspx">Login</a></div><a>
+						<div class="header_mail">info@enlisting.com</div></a>
+					</div>
+					<div class="">
+						<%--<div class="" style="text-align: left;  padding-top: 62px;">--%>
+							<div class="" style="text-align: left; float: left;" class=""><a>
+								<asp:LinkButton runat="server" ID="lksearch" Text="Search" OnClick="lksearch_Click" Font-Size="XX-Large" ForeColor="#FF6666"></asp:LinkButton>
+
+							<%--</a><div style="text-align: left; "><a>--%>
+                                <asp:TextBox ID="TextBox1" runat="server" placeholder="Type company name.." style="width: 296px;" ></asp:TextBox>
+							    <a><a style="text-align: left">
+                                </div>
+						</div>
+						
+						<a href="http://www.rss.com" class="header_soc_rss" id="soc_rss">RSS</a>	
+						<a href="http://www.facebook.com" class="header_soc_fb" id="soc_fb">Facebook</a>
+						<a href="http://www.twitter.com" class="header_soc_twitter" id="soc_twitter">Twitter</a>
+
+						
+
+					</div>				
+				</div>
+			</div>
+		</div>
+		
+		<!-- Main Navigation -->
+		<div class="row no_bm">
+			<div class="dark_menu sixteen columns">
+				<div id="menu">
+					<ul>
+						<li><a href="HomePage-Visiter.aspx"><span class="home_icon"></span></a></li>
+					  	<li><a href="HomePage-Visiter.aspx">Campany</a>
+					       
+					    </li>
+					   
+					  	<li><a href="VisiterCampusProfile.aspx">Campus Recruitment</a>
+					     
+					    </li>
+					   
+					    <li><a href="#">Resume</a>
+                            <div>
+                                <ul>
+                                <li><a href="LOGIN.aspx"><span>Fill ResumeData</span></a></li>
+                                    <li><a href="LOGIN.aspx"><span>Upload Resume</span></a></li>
+					    		 </ul>   
+                            </div>
+                                     
+					    </li>
+                         <li><a href="VisiterSuggetion.aspx">Suggestion</a>
+					    			    
+					    </li>
+					    <li><a href="VisiterContactUs.aspx">Contact Us</a></li>
+
+                        <li><a href="AboutUs.aspx">About Us</a></li>
+					</ul>
+				</div>
+				
+				
+				<%--<select id="select_menu" onchange="location = this.value">
+			  		<option value="">Select Page</option>
+			        <option value="index.html">Company</option>
+			        <option value="index.html">&nbsp;&nbsp;&nbsp;&nbsp;Home Version 1</option>
+			        <option value="index2.html">&nbsp;&nbsp;&nbsp;&nbsp;Home Version 2</option>
+			        <option value="index3.html">&nbsp;&nbsp;&nbsp;&nbsp;Home Version 3</option>
+			        
+			        <option value="services.html">Campus Recruitment</option>
+			        <option value="services.html">&nbsp;&nbsp;&nbsp;&nbsp;Services</option>
+			        <option value="about.html">&nbsp;&nbsp;&nbsp;&nbsp;About Us</option>
+			        <option value="page_left_sidebar.html">&nbsp;&nbsp;&nbsp;&nbsp;Left Sidebar Page</option>
+			        <option value="page_right_sidebar.html">&nbsp;&nbsp;&nbsp;&nbsp;Right Sidebar Page</option>
+			        <option value="search_results.html">&nbsp;&nbsp;&nbsp;&nbsp;Search Results</option>
+			        <option value="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</option>
+	
+			        <option value="elements.html">Resume</option>
+			        <option value="elements.html">&nbsp;&nbsp;&nbsp;&nbsp;Fill Resume Data</option>
+			       
+			        
+			        <option value="portfolio.html">Suggestion</option>
+			        <option value="portfolio.html">&nbsp;&nbsp;&nbsp;&nbsp;Portfolio List</option>
+			        <option value="portfolio_item.html">&nbsp;&nbsp;&nbsp;&nbsp;Portfolio Item</option>
+			        <option value="portfolio_item_gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;Portfolio Item Gallery</option>
+			        <option value="portfolio_item_video.html">&nbsp;&nbsp;&nbsp;&nbsp;Portfolio Item Video</option>		        
+			   
+			        
+			        <option value="Visiter.html">Contact Us</option> 
+
+                    <option value="blog.html">About Us</option>
+			        <option value="blog.html">&nbsp;&nbsp;&nbsp;&nbsp;Blog List</option>
+			        <option value="blog_item.html">&nbsp;&nbsp;&nbsp;&nbsp;Blog Item</option>
+			          
+			    </select>--%>
+						
+			</div>
+		</div>
+		<!-- Main Navigation::END -->
+		
+	
+		<!-- Sequence Slider --> 	
+		<div class="h15 clear"></div>
+		<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="h15 clear"></div>
+	<!-- Footer -->
+<div id="footer" class="container">
+		<div class="row footer_inside">
+		  <div class="four columns">
+		    <h3>About Us</h3>
+		    <p> 	A user can search jobs according to their location or their skills.This application will help students to gain knowledge on asp.net and c# programming language. In this programme, industries visit the colleges to select students depending on their ability to work, capability, focus and Aim.</p>
+		  </div>
+		  <div class="four columns">
+		    <h3 class="margined_left">Footer Navigation</h3>
+		    <ul class="margined_left">
+		    	<li><a href="HomePage-Visiter.aspx">Home</a></li>
+		    	<li><a href="VisiterCampusProfile.aspx">Campus</a></li>
+		    	<li><a href="VisiterUploadResumeFile.aspx">Upload Resume</a></li>
+		    	<li><a href="VisiterSuggetion.aspx">Suggestion</a></li>
+		    	<li><a href="AboutUs.aspx">About Us</a></li>
+		    	<li><a href="VisiterContactUs.aspx">Contact Us</a></li>
+		    </ul>
+		  </div>
+		  <div class="four columns">
+		    <h3>Latest News</h3>
+			<div class="footer_news_item clearfix">
+				<div class="footer_pic">
+					<a href="#"><img src="images/footer_th1.jpg"/></a>
+				</div>
+				<h4><a href="#">Apple has a new plan to crush its rivals and boost iPhone sales, and it starts today.</a></h4>
+				<p class="date">31 March, 2015</p>
+			</div>
+			<div class="footer_news_item clearfix">
+				<div class="footer_pic">
+					<a href="#"><img src="images/footer_th2.jpg"/></a>
+				</div>
+				<h4><a href="#">SBI gets approval to divest 10 percent stake in SBI Life Insurance.</a></h4>
+				<p class="date">3 April, 2015</p>
+			</div>
+		  </div>
+
+		  <div class="four columns">
+		  	<h3>Get in Touch with Us</h3>
+		  	<div class='icon_phone' title='Phone'>(012) 345 6789</div>
+		    <div class='icon_mail' title='Email'>infoenlisting@gmail.com</div>	
+		    <div class='icon_loc' title='Location'>707,A.P. Park, Rajkot</div>	
+		    
+		  	<div class='clear'></div>
+		  	<div class='h10'></div>
+		
+		  </div> 
+	  </div> 
+	  <div class="clear"></div>
+	  <div class="footer_btm">
+	  	<div class="footer_btm_inner">
+		  	<a href='http://www.pinterest.com/' target='_blank' class='icon_pinterest' title='Pinterest'>Pinterest</a>
+	      	<a href='http://www.twitter.com/' target='_blank' class='icon_tweet' title='Tweeter'>Tweeter</a>			
+			<a href="http://www.skype.com/" class='icon_skype' title='Skype'>Skype</a>
+		  	<a href='http://www.google.com/' target='_blank' class='icon_google' title='Google+'>Google+</a>
+	      	<a href='http://www.facebook.com/' target='_blank' class='icon_facebook' title='Facebook'>Facebook</a>
+  
+		  	<div id="powered"><a href="#" target="_blank">Occupation Enlisting</a> © 2015 &nbsp; | &nbsp; </div>
+		</div>	  
+	  </div>
+	</div>
+	<!-- Footer::END -->
+	
+  </div>
+             </div>
+
+
+
+<!-- STYLER :: Start -->
+<link rel="stylesheet" href="styler/css_styler.css"/>
+<link rel="stylesheet" href="styler/colorpicker/css/colorpicker.css" type="text/css" />
+<script type="text/javascript" src="styler/colorpicker/js/colorpicker.js"></script>
+	
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $('#main_color').ColorPicker({
+            onSubmit: function (hsb, hex, rgb, el) {
+                $(el).val(hex);
+                $(el).ColorPickerHide();
+            },
+            onBeforeShow: function () {
+                $(this).ColorPickerSetColor(this.value);
+            },
+            onChange: function (hsb, hex, rgb) {
+                $('#main_color').val(hex);
+                $('#main_color').css('backgroundColor', '#' + hex);
+                mainColorUpdate(hex);
+            }
+        })
+        .bind('keyup', function () {
+            $(this).ColorPickerSetColor(this.value);
+        });
+
+
+        $('#menu_color').ColorPicker({
+            onSubmit: function (hsb, hex, rgb, el) {
+                $(el).val(hex);
+                $(el).ColorPickerHide();
+            },
+            onBeforeShow: function () {
+                $(this).ColorPickerSetColor(this.value);
+            },
+            onChange: function (hsb, hex, rgb) {
+                $('#menu_color').val(hex);
+                $('#menu_color').css('backgroundColor', '#' + hex);
+                menuColorUpdate(hex);
+            }
+        })
+        .bind('keyup', function () {
+            $(this).ColorPickerSetColor(this.value);
+        });
+
+        $('#bgr_color').ColorPicker({
+            onSubmit: function (hsb, hex, rgb, el) {
+                $(el).val(hex);
+                $(el).ColorPickerHide();
+            },
+            onBeforeShow: function () {
+                $(this).ColorPickerSetColor(this.value);
+            },
+            onChange: function (hsb, hex, rgb) {
+                $('#bgr_color').val(hex);
+                $('#bgr_color').css('backgroundColor', '#' + hex);
+                bgrColorUpdate(hex);
+            }
+        })
+        .bind('keyup', function () {
+            $(this).ColorPickerSetColor(this.value);
+        });
+
+
+        $('#menu_style').change(function () {
+            if ($(this).val() == 'dark') {
+                $('#menu').parent().removeClass('custom_menu').removeClass('basic_menu').addClass('dark_menu');
+                $('#menu_color_row').hide();
+            } else if ($(this).val() == 'basic') {
+                $('#menu_color_row').show();
+                $('#menu').parent().removeClass('dark_menu').removeClass('custom_menu').addClass('basic_menu');
+            } else if ($(this).val() == 'custom') {
+                $('#menu_color_row').show();
+                $('#menu').parent().removeClass('dark_menu').removeClass('basic_menu').addClass('custom_menu');
+            } else {
+                $('#menu').parent().removeClass('dark_menu').removeClass('basic_menu').removeClass('custom_menu');
+                $('#menu_color_row').hide();
+            }
+        });
+
+
+        $('#nav_font_picker').change(function () {
+
+            font_weight = false;
+            font_picked = $(this).val();
+            var split_font_name = font_picked.split(":");
+            if (split_font_name.length > 0) {
+                font_picked = split_font_name[0];
+                font_weight = split_font_name[1];
+            }
+
+            $('#nav_font_styles').html('<style>' +
+                '.custom_menu #menu > ul > li > a { font-family: ' + font_picked + ';' + (font_weight ? ' font-weight: ' + font_weight + ';' : '') + '}' +
+                '#menu { font-family: ' + font_picked + ';' + (font_weight ? ' font-weight: ' + font_weight + ';' : '') + '}' +
+                '</style>');
+        });
+
+        $('#nav_fontsize_picker').change(function () {
+
+            fontsize_picked = $(this).val();
+            var split_fontsize_int = fontsize_picked.split("px");
+            if (split_fontsize_int.length > 0) {
+                fontsize_picked_int = split_fontsize_int[0];
+            }
+
+            $('#nav_fontsize_styles').html('<style>' +
+                '#menu > ul > li > a { font-size: ' + fontsize_picked_int + 'px;}' +
+                '#menu > ul > li ul > li > a  { font-size: ' + parseInt(fontsize_picked_int - 1) + 'px;}' +
+                '</style>');
+        });
+
+
+
+        $('#title_font_picker').change(function () {
+
+            font_weight = false;
+            font_picked = $(this).val();
+            var split_font_name = font_picked.split(":");
+            if (split_font_name.length > 0) {
+                font_picked = split_font_name[0];
+                font_weight = split_font_name[1];
+            }
+
+            $('#title_font_styles').html('<style>' +
+                'h1, h2, h3, h4, h5, .title, .section_big_title h1, .heading, #footer h3 { font-family: ' + font_picked + ';' + (font_weight ? ' font-weight: ' + font_weight + ';' : '') + '}' +
+                '</style>');
+
+        });
+
+        $('#button_font_picker').change(function () {
+
+            font_weight = false;
+            font_picked = $(this).val();
+            var split_font_name = font_picked.split(":");
+            if (split_font_name.length > 0) {
+                font_picked = split_font_name[0];
+                font_weight = split_font_name[1];
+            }
+
+            $('#button_font_styles').html('<style>' +
+                '.button, a.button,	button,	input[type="submit"], input[type="reset"], input[type="button"] { font-family: ' + font_picked + ';' + (font_weight ? ' font-weight: ' + font_weight + ';' : '') + '}' +
+                '</style>');
+
+        });
+
+        $('#body_font_picker').change(function () {
+
+            font_picked = $(this).val();
+
+
+            $('#body_font_styles').html('<style>' +
+                'body { font-family: ' + font_picked + ';}' +
+                '</style>');
+
+        });
+
+
+        $('#wrapper_style').change(function () {
+            if ($(this).val() == 'full') {
+                $('#wrapper').addClass('full_wrapper');
+            } else {
+                $('#wrapper').removeClass('full_wrapper');
+            }
+        });
+
+        $('#bgr_picker').change(function () {
+            if ($(this).val() == 'none') {
+                $('#bgr_color_row').show();
+                $('body').css('backgroundImage', 'none');
+                $('body').css('backgroundColor', $('#bgr_color').val());
+            } else {
+                $('#bgr_color_row').hide();
+                $('body').css('backgroundImage', 'url(styler/bgrs/' + $(this).val() + ')');
+            }
+        });
+
+    });
+
+    function mainColorUpdate(hex) {
+
+        hex = '#' + hex;
+
+        $('#styler_styles').html('<style>' +
+            '	a:hover, a:focus { color:' + hex + '; }' +
+            '	.button:hover,a:hover.button,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,	input[type="button"]:hover, .button_hilite, a.button_hilite { color: #fff; background-color:' + hex + ';}' +
+            '	.button_hilite, a.button_hilite { color: #fff; background-color:' + hex + ';}' +
+            '	.button_hilite:hover, a:hover.button_hilite { color: #fff; background-color: #374045;}' +
+
+            '	.section_big_title h1 strong { color:' + hex + ';}' +
+            '	.section_featured_texts h3 a:hover { color:' + hex + ';}' +
+
+            '   .breadcrumb a:hover{ color: ' + hex + ';}' +
+            '   .post_meta a:hover{ color: ' + hex + ';}' +
+            '   .portfolio_filter div.current{ background-color: ' + hex + ';}' +
+
+            '   .next:hover,.prev:hover{ background-color: ' + hex + ';}' +
+            '   .pagination .links a:hover{ background-color: ' + hex + ';}' +
+
+            '   .info  h2{ background-color: ' + hex + ';}' +
+            '   #footer a:hover { color: ' + hex + ';}' +
+            '   .footer_pic img:hover{ border: 3px solid ' + hex + ';}' +
+
+            '	.jcarousel-next-horizontal:hover, .jcarousel-prev-horizontal:hover { background-color:' + hex + ';}' +
+
+            '</style>');
+    }
+
+    function bgrColorUpdate(hex) {
+        $('body').css('background-color', '#' + hex);
+    }
+
+    function menuColorUpdate(hex) {
+        hex = '#' + hex;
+
+        $('#menu_styles').html('<style>' +
+            '   .custom_menu #menu { background-color: ' + hex + ';}' +
+            '   .custom_menu #menu > ul > li > a { background-color: ' + hex + ';}' +
+            '</style>');
+    }
+
+
+    $(document).ready(function () {
+
+        $('#styler_toggler').bind('click', function () {
+            if ($('#styler_slider').css('left') == '0px') {
+                $('#styler_slider').stop(false, true).animate({ left: '-220px' }, 400, 'easeOutExpo', function () {
+                    if ($('#styler_toggler').hasClass('styler_toggler_off')) {
+                        $('#styler_toggler').removeClass('styler_toggler_off').addClass('styler_toggler_on');
+                    } else {
+                        $('#styler_toggler').removeClass('styler_toggler_on').addClass('styler_toggler_off');
+                    }
+                });
+            } else {
+                $('#styler_slider').stop(false, true).animate({ left: '0px' }, 400, 'easeOutExpo', function () {
+                    if ($('#styler_toggler').hasClass('styler_toggler_off')) {
+                        $('#styler_toggler').removeClass('styler_toggler_off').addClass('styler_toggler_on');
+                    } else {
+                        $('#styler_toggler').removeClass('styler_toggler_on').addClass('styler_toggler_off');
+                    }
+                });
+            }
+        });
+
+        // Update colors of colorpicker from those set in Admin
+        $('#main_color').css('background-color', '#0ad1e5');
+        $('#menu_color').css('background-color', '#0ad1e5');
+        $('#bgr_color').css('background-color', '#f6f6f6');
+
+        if ($('#bgr_picker').val() == 'none') {
+            $("#bgr_color_row").show();
+        }
+        if (($('#menu_style').val() == 'custom') || ($('#menu_style').val() == 'basic')) {
+            $('#menu_color_row').show();
+        }
+
+    });
+</script>
+
+
+
+<!--  Fonts  -->
+
+<script type="text/javascript">
+    WebFontConfig = {
+        google: { families: ['Lato', 'Arvo:400', "Allan", "Cabin", "Cardo", "Chivo", "Courgette", "Cuprum", "Dancing Script:700", "Droid Sans", "Droid Serif", "Dosis:500", "Lobster", "Lobster Two", "Mako", "Merienda One", "Miniver", "Molengo", "Open Sans", "Oxygen", "Playball", "Pontano Sans", "Philosopher", "PT Sans", "PT Sans Narrow", "Radley", "Rokkitt", "Salsa", "Vollkorn", "Ubuntu", "Yanone Kaffeesatz"] }
+    };
+    (function () {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+</script>
+
+
+
+
+<div id="styler_slider"> 
+	<div class="styler_inner">
+		<div class="styler_toggler_holder">
+			<div id="styler_toggler" class="styler_toggler_off"></div>
+		</div>
+		
+		<div class="styler_content">
+		
+			<form>
+			<input type="hidden" name="styler_module[status]" value="1"/>
+			<input type="hidden" name="styler_module[display_theme_settings]" value="1"/>
+			<div class="styler_heading">Template Styles</div>
+			
+			<table width="100%" cellspacing="3">
+
+				<tr><td>Menu Style:</td>
+					<td><select name="styler_module[menu_style]" id="menu_style">                				                		                
+			                <option selected = 'selected'  value="dark">Dark</option>			                
+			                <option   value="light">Light</option>	               
+			                <option   value="custom">Custom</option>			               
+	                    </select></td>
+				</tr>
+				<tr id="menu_color_row" style="display: none;"><td>Menu Color:</td>
+					<td><input type="text" maxlength="6" size="6" id='menu_color' name="styler_module[menu_color]" value="0ad1e5"/></td>
+				</tr>
+											
+				<tr><td>Menu Font:</td>
+					<td>
+						<select name="styler_module[nav_font_picker]" id="nav_font_picker">          	
+			                <option value="Lato">Default</option>			                             
+			                <option   value="Allan">Allan</option>			                             
+			                <option   value="Arvo:400">Arvo</option>			                             
+			                <option   value="Cabin">Cabin</option>		                             
+			                <option   value="Cardo">Cardo</option>		                             
+			                <option   value="Chivo">Chivo</option>		                             
+			                <option   value="Courgette">Courgette</option>	                             
+			                <option   value="Cuprum">Cuprum</option>             
+			                <option   value="Dancing Script:700">Dancing Script:700</option>  
+			                <option   value="Droid Sans">Droid Sans</option>  
+			                <option   value="Droid Serif">Droid Serif</option>
+			                <option   value="Dosis:500">Dosis:500</option>
+			                <option   value="Lobster">Lobster</option>
+			                <option   value="Lobster Two">Lobster Two</option>
+			                <option   value="Mako">Mako</option> 
+			                <option   value="Merienda One">Merienda One</option>
+			                <option   value="Miniver">Miniver</option>
+			                <option   value="Molengo">Molengo</option> 
+			                <option   value="Open Sans">Open Sans</option>
+			                <option   value="Oxygen">Oxygen</option>  
+			                <option   value="Playball">Playball</option> 
+			                <option   value="Pontano Sans">Pontano Sans</option>  
+			                <option   value="Philosopher">Philosopher</option>
+			                <option   value="PT Sans">PT Sans</option>   
+			                <option   value="PT Sans Narrow">PT Sans Narrow</option>
+			                <option   value="Radley">Radley</option>  
+			                <option   value="Rokkitt">Rokkitt</option>  
+			                <option   value="Salsa">Salsa</option>
+			                <option   value="Vollkorn">Vollkorn</option> 
+			                <option   value="Ubuntu">Ubuntu</option>
+			                <option   value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+			             </select>					
+					</td>
+				</tr>	
+				<tr><td>Menu F.Size:</td>
+					<td><select name="styler_module[nav_fontsize_picker]" id="nav_fontsize_picker">          	
+			                <option value="15px" selected = 'selected'>Default</option>
+							<option value="14px" >14px</option>
+							<option value="15px" >15px</option>
+							<option value="16px">16px</option>
+							<option value="17px" >17px</option>
+							<option value="18px" >18px</option>
+							<option value="19px" >19px</option>
+							<option value="20px" >20px</option>
+	                    </select>
+	                    <div class='h5'></div>					
+					</td>
+				</tr>					
+				
+				<tr><td class="styler_top_divider">HiLite Color:</td>
+					<td class="styler_top_divider"><input type="text" maxlength="6" size="6" id='main_color' name="styler_module[main_color]" value="0ad1e5"/></td>
+				</tr>
+
+				<tr><td>TiTitle Font:</td>
+					<td><select name="styler_module[title_font_picker]" id="title_font_picker">          	
+			                <option value="Open Sans">Default</option>
+			                			                             
+			                <option   value="Allan">Allan</option>
+			                
+			                <option   value="Arvo:400">Arvo</option>			                             
+			                
+			                <option   value="Cabin">Cabin</option>
+			                             
+			                <option   value="Cardo">Cardo</option>
+			                             
+			                <option   value="Chivo">Chivo</option>
+			                             
+			                <option   value="Courgette">Courgette</option>
+			                             
+			                <option   value="Cuprum">Cuprum</option>
+			                             
+			                <option   value="Dancing Script:700">Dancing Script:700</option>
+			                             
+			                <option   value="Droid Sans">Droid Sans</option>
+			                             
+			                <option   value="Droid Serif">Droid Serif</option>
+			                             
+			                <option   value="Dosis:500">Dosis:500</option>
+			                             
+			                <option   value="Lobster">Lobster</option>
+			                             
+			                <option   value="Lobster Two">Lobster Two</option>
+			                             
+			                <option   value="Mako">Mako</option>
+			                             
+			                <option   value="Merienda One">Merienda One</option>
+			                             
+			                <option   value="Miniver">Miniver</option>
+			                             
+			                <option   value="Molengo">Molengo</option>
+			                             
+			                <option   value="Open Sans">Open Sans</option>
+			                             
+			                <option   value="Oxygen">Oxygen</option>
+			                             
+			                <option   value="Playball">Playball</option>
+			                             
+			                <option   value="Philosopher">Philosopher</option>
+			                             
+			                <option   value="PT Sans">PT Sans</option>
+			                             
+			                <option   value="PT Sans Narrow">PT Sans Narrow</option>
+			                             
+			                <option   value="Radley">Radley</option>
+			                
+			                <option   value="Rokkitt">Rokkitt</option>         
+			                
+			                <option   value="Salsa">Salsa</option>
+			                             
+			                <option   value="Vollkorn">Vollkorn</option>
+			                             
+			                <option   value="Ubuntu">Ubuntu</option>
+			                             
+			                <option   value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+			                	                    </select>x					
+					</td>
+				</tr>	
+
+				<tr><td>Button Font:td>
+					<td><select name="styler_module[button_font_picker]" id="button_font_picker">          	
+			                <option value="Open Sans">Default</option>
+			                			                             
+			                <option   value="Allan">Allan</option>
+			                
+			                <option   value="Arvo:400">Arvo</option>
+			                			                             
+			                <option   value="Cabin">Cabin</option>
+			                             
+			                <option   value="Cardo">Cardo</option>
+			                             
+			                <option   value="Chivo">Chivo</option>
+			                             
+			                <option   value="Courgette">Courgette</option>
+			                             
+			                <option   value="Cuprum">Cuprum</option>
+			                             
+			                <option   value="Dancing Script:700">Dancing Script:700</option>
+			                             
+			                <option   value="Droid Serif">Droid Serif</option>
+			                             
+			                <option   value="Dosis:500">Dosis:500</option>
+			                             
+			                <option   value="Lobster">Lobster</option>
+			                             
+			                <option   value="Lobster Two">Lobster Two</option>
+			                             
+			                <option   value="Mako">Mako</option>
+			                             
+			                <option   value="Merienda One">Merienda One</option>
+			                             
+			                <option   value="Miniver">Miniver</option>
+			                             
+			                <option   value="Molengo">Molengo</option>
+			                             
+			                <option   value="Open Sans">Open Sans</option>
+			                             
+			                <option   value="Oxygen">Oxygen</option>
+			                             
+			                <option   value="Playball">Playball</option>
+			                             
+			                <option   value="Pontano Sans">Pontano Sans</option>
+			                             
+			                <option   value="Philosopher">Philosopher</option>
+			                             
+			                <option   value="PT Sans">PT Sans</option>
+			                             
+			                <option   value="PT Sans Narrow">PT Sans Narrow</option>
+			                             
+			                <option   value="Radley">Radley</option>
+			                
+			                <option   value="Rokkitt">Rokkitt</option>              
+			                
+			                <option   value="Salsa">Salsa</option>
+			                             
+			                <option   value="Vollkorn">Vollkorn</option>
+			                             
+			                <option   value="Ubuntu">Ubuntu</option>
+			                             
+			                <option   value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+			                	                    </select>					
+					</td>
+				</tr>	
+
+				<tr><td>Body Font:</td>
+					<td><select name="styler_module[body_font_picker]" id="body_font_picker">          	
+			                <option value="Open Sans">Default</option>
+			                             
+			                <option   value="Arial">Arial</option>
+			                             
+			                <option   value="Georgia">Georgia</option>
+			                             
+			                <option   value="Tahoma">Tahoma</option>
+			                             
+			                <option   value="Trebuchet MS">Trebuchet MS</option>
+			                             
+			                <option   value="Times New Roman">Times New Roman</option>
+			                             
+			                <option   value="Verdana">Verdana</option>
+			                	                    </select><div class='h5'></div>			
+					</td>
+				</tr>	
+
+
+				<tr><td class="styler_top_divider">Wrapper Style:</td>
+					<td class="styler_top_divider"><select name="styler_module[wrapper_style]" id="wrapper_style">                			                		                
+			                <option value="boxed">Boxed</option>
+			                <option value="full">Full-Width</option>	               
+	                    </select></td>
+				</tr>
+				<tr><td>Main BGR:</td>
+					<td>
+						<select name="styler_module[bgr_image]" id="bgr_picker">                	             		                
+			                <option   value="main_bgr.html">Default</option>
+			                <option   value="2.html">Pattern 1</option>
+			                <option   value="a_diag.html">Pattern 2</option>
+			                <option   value="1.html">Pattern 3</option>
+			                <option   value="a_furley_bg.html">Pattern 4</option>			                		                
+			                <option   value="a_hexellence.html">Pattern 5</option>
+			                <option   value="a_light_toast.html">Pattern 6</option>			                		                
+			                <option   value="a_lil_fiber.html">Pattern 7</option>			                		                
+			                <option   value="a_plaid.html">Pattern 8</option>			                		                
+			                <option   value="a_redox_01.html">Pattern 9</option>			                		                
+			                <option   value="a_scribble_light.html">Pattern 10</option>			                		                
+			                <option   value="a_small-crackle-bright.html">Pattern 11</option>			                		                
+			                <option   value="a_small_tiles.html">Pattern 12</option>			                		                
+			                <option   value="a_stacked_circles.html">Pattern 13</option>			                		                
+			                <option   value="a_stripes.html">Pattern 14</option>			                		                
+			                <option   value="a_diamonds.html">Pattern 15</option>			                		                
+			                <option   value="a_vichy.html">Pattern 16</option>			                		                
+			                <option   value="a_white_tiles.html">Pattern 17</option>			                		                
+			                <option   value="bright_squares.html">Pattern 18</option>			                		                
+			                <option   value="daimond_eyes.html">Pattern 19</option>			                		                
+			                <option   value="dark_argyle.html">Pattern 20</option>			                		                
+			                <option   value="dark_cartographer.html">Pattern 21</option>			                		                
+			                <option   value="dark_linen.html">Pattern 22</option>			                		                
+			                <option   value="dark_noise.html">Pattern 23</option>			                		                
+			                <option   value="dark_pinstriped_suit.html">Pattern 24</option>			                		                
+			                <option   value="dark_szigzag.html">Pattern 25</option>			                		                
+			                <option   value="dark_wood.html">Pattern 26</option>			                		                
+			                <option   value="purty_wood.html">Pattern 27</option>			                		                
+			                <option   value="wood_pattern.html">Pattern 28</option>			           		
+			           		<option   value="none">No Image</option>
+	                    </select>					
+					</td>
+				</tr>
+				<tr id="bgr_color_row" style="display: none;"><td>BGR Color:</td>
+					<td><input type="text" maxlength="6" size="6" id='bgr_color' name="styler_module[bgr_color]" value="0ad1e5"/></td>
+				</tr>	
+							
+			</table>
+			
+			</form>
+		</div>	
+		
+	</div>
+
+
+<div id="styler_styles"></div>
+<div id="menu_styles"></div>
+
+<div id="nav_font_styles"></div>
+<div id="nav_fontsize_styles"></div>
+
+<div id="title_font_styles"></div>
+<div id="button_font_styles"></div>          
+<div id="body_font_styles"></div>     
+
+
+</div>
+
+<!-- STYLER :: End -->
+
+
+
+
+    </form>
+    
+</body>
+</html>
