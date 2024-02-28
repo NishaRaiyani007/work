@@ -1,0 +1,82 @@
+Important and Interview Question of C Language:-
+
+1) What is Programming?
+ANS :- it is set of rules (instruction)   
+
+
+2) What is SDLC? Explain the phases of SDLC
+
+3) What is mean by datatypes? How many types are there?
+
+4) What is variables?
+
+5) Explain rules of Variables.
+
+6) What is Conditional statements? How many conditional statements are 
+there?
+
+7) What is Keywords?How many keywords are there?
+
+8) What is Loops? How many types of Loops are there?
+ANS:- Loop:- It executes statement repeatedly
+
+      Types of Loops:-
+      1)For Loop:- sequence controlled Loop.
+      2) Nested For Loop.
+      3) While Loop:- Entry Controlled Loop Or Condition Based Loop.
+      4) Do...While Loop:-Exit Controlled Loop.
+      
+
+
+
+9) What is Array? Explain types of Array.
+ANS:Arrays:- 
+    Array is a user defined data type which is used to store multiple values in a single element.
+    Array index value starts from 0.
+
+
+    syntax:-
+	datatype arrname[size]={elements};
+
+   Types of Array:-
+   1) Single Dimensional Array(1-D):-datatype arrname[size]
+   2) Multi Dimensional Array(2-D):- datatype arrname[row][col]
+
+
+
+10) What is the another name of for and while loop?
+
+11) Where arrays will use in real world?Explain with examples
+
+12) What is strcmp and strcpy method?
+
+13) What is Functions?
+
+14) Explain types of functions.
+
+15) Explain the categories of functions.
+
+16) What is difference between array and structure.
+
+17) What is protocols?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
