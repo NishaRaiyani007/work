@@ -1,0 +1,82 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mymaster.master.cs" Inherits="mymaster" %>
+<%@ Register TagName="leftmenu" TagPrefix="lmenu" Src="~/left.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body style="background-image:url(image/mytheme.jpg)">
+
+    <form id="form1" runat="server">
+  
+    <div style="background-position: center center; background-image: url(image/mytheme.jpg); font-weight: bold; color: #330000">
+       <center> <asp:Image ID="Image1" runat="server" ImageUrl="~/image/header.jpg"  Width="777"/><br />
+       </center> <asp:Image ID="Image2" runat="server" ImageUrl="~/image/book-09.gif" Height="82px" Width="111px" />&nbsp;<asp:Panel ID="Panel1" runat="server" Height="200px" HorizontalAlign="Left" ScrollBars="Both" Width="125px" BorderColor="#E0E0E0" BorderStyle="Solid">
+        <lmenu:leftmenu runat="server" Visible="true" ID="lmenu1"/>
+        </asp:Panel>
+        <asp:Image ID="Image3" runat="server" ImageUrl="~/image/Butterfly1.gif" Width="131px" />&nbsp;<br />
+        <asp:Label ID="Label1" runat="server" Text="Feel Like Heaven"></asp:Label>
+        <table style="left: 660px; width: 118px; position: relative; top: -375px">
+            <tr>
+                <td style="width: 100px; height: 18px">
+                    <asp:Image ID="Image4" runat="server" ImageUrl="~/image/smiley_013.gif" /></td>
+            </tr>
+        </table>
+        &nbsp;
+        <table style="vertical-align: top; width: 451px; color: #330000; height: 43px;
+            background-color: #cc6600; text-align: center; left: 127px; position: relative; top: -599px;" cellspacing="10">
+            <tr>
+                <td style="width: 100px; height: 45px;">
+                    <asp:HyperLink ID="homelink" runat="server" Font-Bold="True" Font-Names="Calibri"
+                        Font-Size="Large" ForeColor="#400000" NavigateUrl="~/home.aspx" Width="72px">Home</asp:HyperLink></td>
+                <td style="width: 103px; height: 45px; vertical-align: middle; text-align: center;">
+                    <asp:Menu ID="Menu1" runat="server" BackColor="Chocolate" Font-Names="Calibri" Font-Size="Large"
+                        Font-Underline="True" ForeColor="#400000" Height="23px" DynamicHorizontalOffset="2" StaticSubMenuIndent="10px">
+                        <Items >
+                            <asp:MenuItem Text="Books" Value="Books" >
+                                <asp:MenuItem NavigateUrl="~/booklist.aspx" Text="Computer Education" Value="Computer Education">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/children.aspx" Text="Children Books" Value="Children Books">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/science.aspx" Text="Science" Value="Science"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/cooking.aspx" Text="Cooking" Value="Cooking"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/religion.aspx" Text="Religion" Value="Religion"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/entertainment.aspx" Text="Entertainment" Value="Entertainment">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/business.aspx" Text="Business &amp; investing" Value="Business &amp; investing">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/family.aspx" Text="Family Books" Value="Family Books"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#B5C7DE" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                    </asp:Menu>
+                </td>
+                <td style="width: 100px; height: 45px;">
+                    <asp:HyperLink ID="registerlink" runat="server" Font-Bold="True" Font-Names="Calibri"
+                        Font-Size="Large" ForeColor="#400000" NavigateUrl="~/register.aspx" Width="80px">Register</asp:HyperLink></td>
+                <td style="width: 100px; height: 45px;">
+                    <asp:HyperLink ID="contactus" runat="server" Font-Bold="True" Font-Names="Calibri"
+                        Font-Size="Large" ForeColor="#400000" NavigateUrl="~/contactus.aspx" Width="87px">Contact Us</asp:HyperLink></td>
+                <td style="width: 100px; height: 45px">
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Names="Calibri"
+                        Font-Size="Large" ForeColor="#400000" NavigateUrl="~/adminlogin.aspx">Administration</asp:HyperLink></td>
+            </tr>
+        </table>
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<div style="left: 141px; width: 506px; position: relative; top: -607px; height: 244px;">
+            &nbsp;<br />
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                
+        </asp:contentplaceholder>
+        </div>
+       </div>
+    </form>
+  
+</body>
+</html>
