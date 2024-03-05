@@ -1,0 +1,91 @@
+.zoomin
+{
+	background-color:Gray;
+	//filter:alpha(opacity=70);
+	//opacity:0.7;
+	height:100%;
+	width:100%;
+	top: 0%; 
+	left:0%; 
+	position: fixed; 
+	z-index: 10;
+	visibility:hidden;
+
+}
+
+img
+{
+
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Safari and Chrome */
+	-o-transform: rotate(45deg); /* Opera */
+	-moz-transform: rotate(45deg); /* Firefox */
+	
+	transform: skew(15deg,10deg);
+	-ms-transform: skew(15deg,10deg); /* IE 9 */
+	-webkit-transform: skew(15deg,10deg); /* Safari and Chrome */
+	-o-transform: skew(15deg,10deg); /* Opera */
+	-moz-transform: skew(15deg,10deg); /* Firefox */
+
+	transform: translate(5px,10px);
+	-ms-transform: translate(5px,10px); /* IE 9 */
+	-webkit-transform: translate(5px,10px); /* Safari and Chrome */
+	-o-transform: translate(5px,10px); /* Opera */
+	-moz-transform: translate(5px,10px); /* Firefox */
+
+
+	height: 200px;
+	width: 200px;
+
+	margin-left: 50px;
+}
+
+P
+{
+font-size: 48px; color: red;
+}
+div 
+{
+font-size: 24px; color: red;
+}
+
+a:link
+{
+	font-size: 22px;
+	font-weight: bold;
+	background-color: rgb(FF,FF,FF);
+	color: rgb(0,0,255);
+	text-decoration: none;
+	margin-left: 25px;
+}
+
+a:active
+{
+	font-size: 22px;
+	font-weight: bold;
+	background-color: rgb(FF,FF,FF);
+	color: rgb(0,255,0);
+	text-decoration: none;
+	margin-left: 25px;
+}
+
+a:visited
+{
+	font-size: 22px;
+	font-weight: bold;
+	background-color: rgb(FF,FF,FF);
+	color: rgb(255,0,0);
+	text-decoration: none;
+	margin-left: 25px;
+}
+
+a:hover
+{
+	font-size: 22px;
+	font-weight: bold;
+	background-color: rgb(0,0,255);
+	color: white;
+	text-decoration: none;
+	margin-left: 25px;
+}
