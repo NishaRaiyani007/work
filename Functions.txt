@@ -1,0 +1,67 @@
+Functions:-
+Function is a block of code that we can use
+again and again
+
+---> Function provides reusability and it 
+makes your code shorter and easier.
+
+Types of Functions:-
+
+1) Library or Inbuilt Functions:- predefined in library
+e.g:- printf(),scanf(),getch(),main()...
+
+2) User Defined Functions:- Which is defined by user
+e.g:- add(),myfun()....
+
+
+Categories of Functions:-
+
+1) Function Without Parameters and Without Return Value
+2) Function With Parameters and Without Return Value
+3) Function Without Parameters and With return value
+4) Function with parameters and with return value.
+
+Interview Question:-
+Difference Between Parameters and Arguments.
+
+Parameters:- The Variables which we will write during function 
+declaration is called Parmeters.
+
+Arguments:-The values which we will write during function 
+calling is called Arguments.
+
+Return Value:-It will return some value
+
+
+syntax:-
+
+	datatype funname(int a, int b)  Function declaration 
+	{
+		block of code...
+	}
+	main()
+	{
+		funname(10,20);  Function calling
+	}
+
+
+a=10
+b=20
+
+swapping
+
+a=20
+b=10
+
+
+
+
+
+
+
+
+
+
+
+
+
