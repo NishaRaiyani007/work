@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            background-color: aqua;
+            height: 1500px;
+            display: flex;
+            border: solid 2px;
+        }
+
+        .box {
+            border: solid 2px orange;
+            height: 150px;
+            width: 150px;
+            margin: 0 10px;
+        }
+
+        #box2 {
+            /* relative-fix space , move to any place  */
+            position: relative;
+            /* fixed - jabtak websid ka page khatam na ho tab tak vahi hi rahega  */
+            /* position: fixed; */
+            /* position: sticky; */
+            /* top: 50px; */
+            /* left: 150px; */
+            /* right: 600px; */
+            background-color: brown;
+            /* bottom: 100px; */
+            top: 100px;
+        }
+
+        .mini-box {
+            /* absolute- khud ki position na leke perents ki jage se chalu hota he  */
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background-color: black;
+            right: 0;
+            top: 0;    
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box"></div>
+        <div class="box" id="box2">
+            <div class="mini-box"></div>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, vitae cupiditate omnis sit dolore quia alias
+            sequi velit maiores ad harum aperiam, ipsa, pariatur reiciendis consequuntur ab. Dicta, nostrum suscipit.
+        </p>
+    </section>
+</body>
+
+</html>
