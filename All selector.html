@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        background-color: antiquewhite;
+    }
+
+    #head {
+        background-color: blue;
+    }
+
+    .head-2 {
+        background-color: blueviolet;
+    }
+
+    /* * {
+        color: bisque;
+    } */
+    h2,
+    h3 {
+        color: brown;
+    }
+
+    div .head-3 {
+        color: yellow;
+
+    }
+
+    section>div>h4 {
+        color: hotpink;
+    }
+</style>
+<body>
+    <section>
+        <div>
+            <p>element selector</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1> id selector</h1>
+            <h1 id="head"> id selector</h1>
+            <h1> id selector</h1>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1> class selector</h1>
+            <h1 class="head-2"> class selector</h1>
+            <h1 class="head-2"> class selector</h1>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1> univarsl selector</h1>
+            <h1> univarsl selector</h1>
+            <h1> univarsl selector</h1>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1> grouping selector </h1>
+            <h2> grouping selector </h2>
+            <h3> grouping selector </h3>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1 class="head-3"> Descendant selector </h1>
+            <h1> Descendant selector </h1>
+            <h1 class="head-3"> Descendant selector </h1>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h4>child selector</h4>
+            <h4>child selector</h4>
+            <h4>child selector</h4>
+        </div>
+    </section>
+    <div>
+        <h4>child selector </h4>
+        <h4>child selector </h4>
+        <h4>child selector </h4>
+    </div>
+</body>
+
+</html>
