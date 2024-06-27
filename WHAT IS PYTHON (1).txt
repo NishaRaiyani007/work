@@ -1,0 +1,90 @@
+WHAT IS PYTHON?
+
+PYTHON IS INTERPRETED OBJECT ORIENTED PROGRAMMING LANGUAGE
+
+PYTHON IS EASY TO LEARN
+
+
+
+CONDITIONAL STAMENTS
+
+3) TYPES 
+
+1) NORMAL IF/ELSE 
+2) LADDER IF/ELSE
+3) NESTED IF/ELSE 
+
+
+and or operator
+
+variable -> name to given to the value
+n=10
+
+ 
+data type -> categorise data into format
+
+
+
+
+
+
+Loop:
+	Looping means repeating something over and over until a particular condition is satisfied
+
+2) types of loop
+
+1) Entry control loop
+
+while,for
+
+3) step
+
+1) initialize -> start
+2) condition -> stop
+3) increment -> 
+
+2) Exit control loop
+
+do while loop
+
+
+
+
+String:
+	Group of characters
+
+	
+
+Inbuilt method :
+	
+	
+	capitalize
+	lower
+	upper
+	join
+
+
+Slicing :
+
+	Covert into small parts
+
+	start
+	stop
+	jump
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
