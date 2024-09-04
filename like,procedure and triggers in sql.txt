@@ -1,0 +1,196 @@
+2) Left Join:- It returns all the records from left table
+(1st table) and only matching records from right table.
+
+---> If it does not matches it will return null values.
+
+SELECT category.cate_name,subcategory.subcate_name FROM category
+LEFT JOIN subcategory ON category.cate_id=subcategory.cate_id_fk
+
+3) Right Join:- It returns all the records from right table
+and only matching records from left table
+
+SELECT category.cate_name,subcategory.subcate_name FROM category
+RIGHT JOIN subcategory ON category.cate_id=subcategory.cate_id_fk
+
+LIKE and Wildcards:-
+
+
+SELECT * FROM product WHERE prd_name LIKE 'D%'
+
+SELECT * FROM product WHERE prd_name LIKE '%s'
+
+SELECT * FROM product WHERE prd_name LIKE '_r%'
+
+SELECT * FROM product WHERE prd_name LIKE '__a%'
+
+SELECT * FROM product WHERE prd_name LIKE 'D__%'
+
+SELECT * FROM product WHERE prd_name LIKE 'D%s'
+
+SELECT * FROM product WHERE prd_name LIKE '%Dre%'
+
+SELECT * FROM product WHERE prd_name NOT LIKE 'D%'
+
+Advance SQL:-
+
+Procedures:-
+
+It is used to execute a same query again and again.
+
+create procedure procedurename()
+
+CREATE DATABASE procedure_db
+
+CREATE TABLE candidates
+(
+    c_id int,
+    c_name varchar(40)
+    
+    
+    
+)
+
+
+DELIMITER $$
+
+CREATE PROCEDURE insertdata()
+BEGIN
+
+INSERT INTO candidates(c_id,c_name) VALUES(1,"Manav");
+
+
+
+END
+
+CALL insertdata();
+CALL insertdata();
+CALL insertdata();
+CALL insertdata();
+CALL insertdata();
+
+Procedure with Parameters:-
+
+DELIMITER $$
+
+CREATE PROCEDURE insertDiffData(i int, j varchar(40))
+BEGIN
+
+INSERT INTO candidates(c_id,c_name) VALUES(i,j);
+
+
+
+END
+
+CALL insertDiffData(2,"Nisha");
+CALL insertDiffData(3,"Milan");
+CALL insertDiffData(4,"Sohan");
+CALL insertDiffData(5,"Dipak");
+
+
+Task:- create table student and add student id,name,subject and marks and
+add data using procedure
+
+
+Triggers in SQL:-
+
+
+CREATE DATABASE trigger_db
+
+CREATE TABLE candidates
+(
+    c_id int,
+    c_name varchar(40)
+    
+    
+    
+)
+
+
+CREATE TABLE test
+(
+    id int,
+    name varchar(40),
+    date_time timestamp,
+    action_performed varchar(40)
+    
+    
+    
+    
+)
+
+DELIMITER $$
+
+CREATE TRIGGER insert_trigger AFTER INSERT ON candidates 
+FOR EACH ROW
+
+BEGIN
+
+INSERT INTO test(id,name,action_performed) 
+VALUES(new.c_id,new.c_name,"Record Inserted!");
+
+
+END
+
+
+
+
+
+DELIMITER $$
+
+CREATE TRIGGER update_trigger AFTER UPDATE ON candidates FOR EACH ROW
+
+BEGIN
+
+INSERT INTO test(id,name,action_performed) VALUES(new.c_id,new.c_name,"Record Updated!");
+
+
+END
+
+UPDATE candidates SET c_name="Akshay" WHERE c_id=1
+
+
+DELIMITER $$
+
+CREATE TRIGGER delete_trigger AFTER DELETE ON candidates 
+FOR EACH ROW
+
+BEGIN
+
+INSERT INTO test(id,name,action_performed) 
+VALUES(old.c_id,old.c_name,"Record Deleted!");
+
+
+END
+
+DELETE FROM candidates WHERE c_id=2
+
+
+Task:- create two tables ceo and employee and data in employee 
+table and see in ceo table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
