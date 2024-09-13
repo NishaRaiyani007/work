@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat";
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.navbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #333;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Product Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2d0836;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+    color: #333;
+}
+
+.btn-primary {
+    
+    background-color: #007bff;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Filter Form */
+#filter-form .input-group-text {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#filter-form input {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+#apply-filter {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+
+/* Product Grid */
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.product-item {
+    flex: 0 1 calc(100% - 1rem);
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+    .product-item {
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+
+@media (min-width: 768px) {
+    .product-item {
+        flex: 0 1 calc(33.33% - 1rem);
+    }
+}
+
+@media (min-width: 992px) {
+    .product-item {
+        flex: 0 1 calc(25% - 1rem);
+    }
+}
+
+/* Adjust Typography and Spacing for Larger Screens */
+@media (min-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .card-title {
+        font-size: 1.4rem;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    #filter-form .input-group-text, #apply-filter {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+}
+
+/* add */
+/* Container Styling */
+.row {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Main Product Image Styling */
+.main-image img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Thumbnail Gallery Styling */
+.thumbnail-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow-x: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.thumbnail-gallery img {
+    max-width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+.thumbnail-gallery img:hover {
+    transform: scale(1.1);
+    border-color: #007bff;
+}
+
+.thumbnail-gallery img:last-child {
+    margin-right: 0;
+}
+
+/* Product Details Styling */
+/* Product Title Styling */
+.col-lg-6 h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #625a5a; /* Change this to your desired color */
+}
+
+
+.col-lg-6 p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.quantity-selector label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.quantity-selector input {
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.quantity-selector input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Total Price Styling */
+#total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Add to Cart Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+/* review section */
+/* Review Section Styling */
+.reviews-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.reviews-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.review h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.review p {
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.review p.rating {
+    font-size: 18px;
+    color: #ffc107; /* Gold color for stars */
+}
+
+.add-review {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.add-review h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
